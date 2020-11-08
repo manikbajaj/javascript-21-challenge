@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Adding the custom stylesheet    -->
+    <link rel="stylesheet" href="/project1/src/style.css" />
+
+    <!--    Title of the page-->
+    <title>Project 1 - Background Color Changer</title>
+  </head>
+
+  <body>
+    <!--  A fluid Container for 100% Width-->
+    <div class="container-fluid h-100">
+      <!--  Bootstrap Row -->
+      <div id="#page-background" class="row h-100 page-background">
+        <!-- Bootstrap Column -->
+        <div
+          class="col d-flex align-items-center justify-content-center flex-column"
+        >
+          <!--  Heading  -->
+          <h1 class="text-white text-capitalize mb-5">
+            Let's Change Some Colors In Your Life!
+          </h1>
+          <!--  Button to change colors  -->
+          <button id="#button" type="button" class="btn btn-lg btn-light">
+            Click To Change Color
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--  Link the JavaScript File  -->
+    <script src="src/index.js"></script>
+  </body>
+</html>

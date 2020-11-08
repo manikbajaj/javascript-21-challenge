@@ -1,0 +1,8 @@
+body {
+  height: 100vh;
+}
+
+.page-background {
+  background-color: #0d6efd;
+  transition: background-color 1s linear;
+}
